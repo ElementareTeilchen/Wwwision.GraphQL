@@ -12,7 +12,7 @@ use TYPO3\Flow\Http\Component\ComponentInterface;
 class HttpOptionsComponent implements ComponentInterface
 {
     /**
-     * @Flow\InjectConfiguration(path="endpoints")
+     * @Flow\Inject(setting="endpoints")
      * @var array
      */
     protected $endpoints;

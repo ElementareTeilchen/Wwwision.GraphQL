@@ -7,6 +7,9 @@ TYPO3:
             'graphQLOptions':
               position: 'before routing'
               component: 'Wwwision\GraphQL\Http\HttpOptionsComponent'
+    object:
+      excludeClasses:
+        'webonyx.*': ['.*']
 Wwwision:
   GraphQL:
     endpoints: []

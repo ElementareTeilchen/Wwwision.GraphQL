@@ -1,21 +1,21 @@
 -
   name: 'graphql - GraphiQL UI'
-  uriPattern: '<endpoint>'
+  uriPattern: '{endpoint}'
   defaults:
     '@package':    'Wwwision.GraphQL'
     '@controller': 'Standard'
     '@action':     'index'
     '@format':     'html'
-    'endpoint':   '<endpoint>'
+    'endpoint':   '{endpoint}'
   appendExceedingArguments: true
   httpMethods: [GET]
 
 -
   name: 'graphql - endpoint'
-  uriPattern: '<endpoint>'
+  uriPattern: '{endpoint}'
   defaults:
     '@package':    'Wwwision.GraphQL'
     '@controller': 'Standard'
     '@action':     'query'
-    'endpoint':   '<endpoint>'
+    'endpoint':   '{endpoint}'
   httpMethods: [POST]
